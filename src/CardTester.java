@@ -12,6 +12,8 @@ public class CardTester {
         System.out.println(card1.matches(card2));
         System.out.println(card2.matches(card3));
         System.out.println(card3.matches(card1));
+
+        System.out.println(card1.toString());
     }
 
 
